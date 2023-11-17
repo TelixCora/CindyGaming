@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: white;
+}
+/*<<<<<<<<<<<Home page>>>>>>>>>>>>>>>*/
+.background-vdo{
+  height: 200vh;
+  width: 100%;
+  margin: -300 0;
+    background-position: center;
+  opacity: 100%;
+  background:black;
+  z-index: 100;
+}
+.about-text{
+  position: fixed;
+  color: white;
+  top: 30%;
+  left: 25%;
+  text-align: center;
+  word-spacing: 10px;
+  line-height: 34px;
+}
+.about-text h1{
+  font-size: 90px;
+  color:whitesmoke;
+  letter-spacing: 1px;
+  height: 23vh;
+  width: 100%;
+  padding-top: 10vh;
+}
+.about-text p{
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #cecece;
+  font-size: 50px;
+  height: 10vh;
+}
+.btn-1{
+  background:transparent;
+  border: 1px solid red;
+  height: 8vh;
+  width: 40vh;
+  color: white;
+  transition: .25s ease-in-out;
+  margin-top: 2vh;
+  box-shadow: 1px 2px 3px red;
+  margin-bottom: 8vh;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn-1:hover{
+  background-color: red;
+  box-shadow: 2px 3px 5px red;
+}
+
+.go-to-top img{
+  height: 6vh;
+  position: fixed;
+  right: 0;
+  top: 90vh;
+  z-index: 2;
+}
+/*<<<<<<<<<<<Login Page>>>>>>>>>>>>>>>*/
